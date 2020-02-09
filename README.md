@@ -1,3 +1,8 @@
+<center>
+
+![zcp-logo](https://s2.ax1x.com/2020/02/09/1fBwEd.png "zcp-logo")
+
+</center>
 
 # 张昌蒲计算器 zcp-calculator
 
@@ -19,3 +24,10 @@ npm run serve
 ```
 npm run build
 ```
+
+
+### DEMO和下载
+
+[DEMO地址](http://app.shawroger.com/zcp/)
+
+[下载地址](http://app.shawroger.com/zcp/download/)
