@@ -1,18 +1,21 @@
-<center><img src="https://s2.ax1x.com/2020/02/09/1fBwEd.png" width="60" height="60" style="border-radius:50%" /><center>
-  
-# zcp-calculator
 
-## Project setup
+# 张昌蒲计算器 zcp-calculator
+
+## 简介
+
+对于三国杀十周年区武将张昌蒲的快速计算APP，采用vue+composition-api+vuex+element-ui+typescript构造web端，利用uni-app构建手机安卓端。
+
+## 源代码安装dev
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 npm run build
 ```
