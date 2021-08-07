@@ -14,11 +14,11 @@ export default new Vuex.Store({
 	state: {
 		cards: [] as Array<Card>,
 		result: [] as [(string | number)[], (string | number)[]][],
-		openPanel: false
+		openPanel: false,
 	},
 	mutations: {
 		addCards(state, payload: Card) {
-			if (state.cards.length >= 8) return;
+			if (state.cards.length >= 10) return;
 			state.cards.push(payload);
 		},
 		backCards(state) {
@@ -32,7 +32,7 @@ export default new Vuex.Store({
 			state.openPanel = false;
 		},
 		runCards(state) {
-			const cardValues = state.cards.map(v => v.value);
+			const cardValues = state.cards.map((v) => v.value);
 			const result = zcp.getAllCorrectCards(cardValues);
 			state.result = zcp.filter(zcp.sort(result));
 			state.openPanel = true;
@@ -40,6 +40,6 @@ export default new Vuex.Store({
 		},
 		setPanel(state) {
 			state.openPanel = !state.openPanel;
-		}
-	}
+		},
+	},
 });

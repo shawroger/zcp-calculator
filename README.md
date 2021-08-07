@@ -8,26 +8,22 @@
 
 ## 简介
 
-对于三国杀十周年区武将张昌蒲的快速计算APP，采用vue+composition-api+vuex+element-ui+typescript构造web端，利用uni-app构建手机安卓端。
+对于三国杀十周年区武将张昌蒲的快速计算 APP，采用 vue+composition-api+vuex+element-ui+typescript 构造 web 端，利用 uni-app 构建手机安卓端。
 
-## 源代码安装dev
+## 源代码安装 dev
+
 ```
 npm install
 ```
 
 ### 运行
+
 ```
 npm run serve
 ```
 
 ### 打包
+
 ```
 npm run build
 ```
-
-
-### DEMO和下载
-
-[DEMO地址](http://app.shawroger.com/zcp/)
-
-[下载地址](http://app.shawroger.com/zcp/download/)
